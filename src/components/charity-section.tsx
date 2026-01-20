@@ -16,10 +16,10 @@ const charitySectionIcons = [
 function CharitySection() {
   return (
     <section
-      className="max-w-10/12 mx-auto flex items-center justify-center gap-8 py-12 border"
+      className="max-w-10/12 mx-auto flex items-center justify-center gap-8 py-12"
       id="charity-section"
     >
-      <div className="rounded-xl flex flex-col gap-y-4 py-12 max-w-5/12 bg-[#FF60E6] h-[515px]">
+      <div className="rounded-xl flex flex-col gap-y-4 py-12 max-w-6/12 bg-[#FF60E6] h-[515px]">
         <div className="grid grid-cols-5 gap-4">
           {charitySectionIcons.map((icon, index) => (
             <div
@@ -36,9 +36,9 @@ function CharitySection() {
           involvement and exploring new opportunities.
         </p>
       </div>
-      <div className="rounded-xl flex flex-col gap-y-4 p-14 max-w-5/12 bg-white h-[515px]">
+      <div className="rounded-xl flex flex-col gap-y-4 p-14 max-w-6/12 bg-white h-[515px]">
         <h2 className="font-extrabold text-6xl text-[#1F392C]">Charity</h2>
-        <p className="text-xl text-[#1F392C] flex-wrap leading-relaxed">
+        <p className="text-xl text-[#1F392C] flex-wrap leading-relaxed max-w-10/12">
           Our creative agency supports charities globally, using our skills in
           branding, marketing, and social media to make a positive impact on
           local communities and raise awareness about important causes.

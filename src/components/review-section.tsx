@@ -19,7 +19,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 function ReviewSection() {
   return (
     <section
-      className="flex flex-col gap-y-20 max-w-10/12 mx-auto py-12 text-[#1F392C] border"
+      className="flex flex-col gap-y-20 max-w-10/12 mx-auto py-12 text-[#1F392C]"
       id="review-section"
     >
       <p className="text-center text-xl">
@@ -98,7 +98,9 @@ function ReviewSection() {
                     <AvatarFallback>{data.name}</AvatarFallback>
                   </Avatar>
                   <h3 className="text-3xl font-medium">{data.name}</h3>
-                  <p className="text-lg">{data.desc}</p>
+                  <p className="text-xl flex-wrap leading-relaxed">
+                    {data.desc}
+                  </p>
                 </CardContent>
               </Card>
             </CarouselItem>

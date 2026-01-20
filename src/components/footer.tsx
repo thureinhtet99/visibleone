@@ -5,7 +5,7 @@ import { Copyright, Facebook, Instagram, Linkedin } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="flex flex-col items-center justify-center max-w-10/12 mx-auto py-12 gap-y-6 border">
+    <footer className="flex flex-col items-center justify-center max-w-10/12 mx-auto py-12 gap-y-6">
       <h2 className="font-bold text-6xl text-[#1F392C]">
         We are waiting for you to contact us
       </h2>
